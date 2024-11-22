@@ -52,7 +52,7 @@ try:
             for index, row in df.iterrows():
                 if pd.isna(row['term']):
                     break
-                                    item_name = row['term']
+                item_name = row['term']
                 definition = row['def']
                 comment = row['comment']
                 ref = row['reference']
