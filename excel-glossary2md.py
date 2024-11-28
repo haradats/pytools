@@ -58,7 +58,7 @@ try:
                 ref = row['reference']
 
                 file_name = f"{item_name}.md"
-                file_path = f"{out_dir}/{file_name}.md"
+                file_path = f"{out_dir}/{file_name}"
                 print(f"    - {file_name}")
 
                 try:
