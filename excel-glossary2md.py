@@ -69,7 +69,7 @@ try:
                             f_out.write(f"## 備考\n{comment}\n")
                         if not pd.isna(ref):
                             f_out.write(f"## リファレンス\n{ref}\n")
-                except:
+                except Exception as e:
                     print(f"error: file write failed: {file_name} - {e}")
 
 except Exception as e:
